@@ -1,0 +1,35 @@
+.footer{
+    text-align: center;
+    background-color: rgb(11, 25, 65);
+    height: 2rem;
+    line-height: 2rem;
+    margin-top: 10.55rem;
+   
+  
+}
+
+.footer p{
+    font-weight: 300;
+    font-style: italic;
+}
+
+@media screen and (max-width: 1200px) {
+    .footer{
+        margin-top: 3.5rem;
+        
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .footer{
+     
+      margin-top: 8rem;
+    }
+}  
+@media screen and (max-width: 250px) {
+    .footer{
+        margin-top: 5rem;
+        
+    }
+}

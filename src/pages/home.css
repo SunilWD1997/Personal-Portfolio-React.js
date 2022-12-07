@@ -1,0 +1,47 @@
+.main {
+    margin-top: 3rem;
+    height: calc(100vh - 48px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main h2 {
+    margin-bottom: 1rem;
+    color: rgb(216, 248, 74);
+    font-size: 3rem;
+}
+
+.main .social_media_links {
+    margin-top: 1rem;
+
+
+}
+
+.main .social_media_links a {
+    margin: 0 5px;
+
+}
+.main .social_media_links a:hover {
+    color: grey;
+
+}
+
+
+
+@media screen and (max-width: 700px) {
+    .main h2 {
+        margin-bottom: 1rem;
+        padding: 0 .15rem;
+        text-align: center;
+        font-size: 1.7rem;
+    }
+    .main p {
+       
+        text-align: center;
+        font-size: .8rem;
+        padding: 0 .4rem;
+    }
+}

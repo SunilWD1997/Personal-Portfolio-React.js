@@ -1,0 +1,28 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+ 
+  
+}
+body{
+  background-color: black;
+}
+
+ul, ol{
+  list-style: none;
+ 
+}
+a{
+  color: rgb(219, 222, 224);
+  text-decoration: none;
+}
+
+img{
+  width: 100%;
+  object-fit: cover;
+}
